@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2a5985;
+  background-color: #a14040;
   color: white;
   padding: 20px;
 }
@@ -63,3 +63,73 @@
 }
 
 /* Seccion media queries */
+/* Seccion media queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flexbox-part {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .welcome-block {
+    padding: 20px;
+  }
+
+  .welcome-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .footer_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .location,
+  .info {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+
+  .logo img {
+    width: 140px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+
+  .welcome-block h1 {
+    font-size: 24px;
+  }
+
+  .welcome-block p {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .derechos p {
+    font-size: 12px;
+  }
+}
