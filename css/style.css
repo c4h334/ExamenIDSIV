@@ -1,8 +1,22 @@
-.header {
-  background-color: white;
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px 30px;
+
 }
-.nav {
-  color: red;
+.logo{
+    width: 180px;
+}
+.nav{
+    display: flex;
+    gap: 25px;
+}
+.nav a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .flexbox-part {
