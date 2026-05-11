@@ -20,15 +20,19 @@
 }
 
 .flexbox-part {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(216, 65, 65);
+  gap:20px
+  
 }
 
 .welcome-block {
-    background-color: rgb(216, 65, 65);
-    color: white;
-    text-align: center;
-    flex-wrap: wrap
+  color: white;
+  justify-content: center;
+  padding: 10px 50px 10px 50px;
 }
-/* Seccion media queries */
 
+/* Seccion media queries */
