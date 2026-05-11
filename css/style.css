@@ -1,3 +1,9 @@
+.header{
+    background-color: white;
+}
+.nav{
+    color: red;
+
 .flexbox-part {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
