@@ -163,7 +163,7 @@ body {
   font-size: 1.2rem;
   color: gray;
   max-width: 600px;
-  
+  margin-bottom: 2rem;
 }
 
 .contacto img {
@@ -242,6 +242,21 @@ body {
   .grid {
     padding: 40px 20px;
   }
+
+  .contacto {
+    flex-direction: column;
+    text-align: center;
+
+    gap: 2rem;
+  }
+
+  .contacto h1 {
+    font-size: 2.5rem;
+  }
+
+  .contacto img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -262,13 +277,3 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .contacto {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .contacto img {
-    width: 100%;
-  }
-}
